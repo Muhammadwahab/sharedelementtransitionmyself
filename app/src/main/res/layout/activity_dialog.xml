@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <com.mujadidiainc.sharedelementtransitionwithdailog.sharedelementstest.SquareImageLayout
+        android:layout_margin="25dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/btn_star_big_on"
+        android:transitionName="image_transition" />
+
+</RelativeLayout>
